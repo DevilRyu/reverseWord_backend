@@ -20,6 +20,8 @@ En caso de que no se envie el text en el query param el endpoint responde con un
   ```
   Adicionalmente está app usa standard.js con el fin de llevar un correcta sintaxis, y el módulo de tests desarrllado con mocha+chai+supertest.
 
+  Cabe recalcar que esta app corre en el puerto 4000
+
   A continuación se muestran los comandos para correr la aplicación y su módulo de pruebas.
 ## Run instructions
 Para correr la aplicación se utiliza el siguiente comando:
