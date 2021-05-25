@@ -1,0 +1,25 @@
+{
+  "name": "reverseWord-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "mocha tests/reverseWord.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.4.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "supertest": "^6.1.3"
+  }
+}
